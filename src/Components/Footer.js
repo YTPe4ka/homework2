@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const FooterContainer = styled.footer`
   padding: 2rem 1rem;
-  background-color: #003d5c;
+  background-color:rgb(0, 92, 15);
   color: white;
   text-align: center;
 `;

@@ -46,7 +46,7 @@ const Step = styled.div`
 
 const CallToAction = styled.button`
   margin-top: 2rem;
-  background-color: #003d5c;
+  background-color:rgb(0, 92, 23);
   color: white;
   border: none;
   padding: 0.75rem 1.5rem;

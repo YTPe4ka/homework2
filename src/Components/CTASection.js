@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const CTAContainer = styled.section`
-  background-color: #003d5c;
+  background-color:rgb(0, 73, 17);
   color: white;
   padding: 3rem 2rem;
   text-align: center;
@@ -19,7 +19,7 @@ const Subtitle = styled.p`
 
 const CTAButton = styled.button`
   background-color: #ffa73c;
-  color: #003d5c;
+  color:rgb(255, 255, 255);
   border: none;
   padding: 0.75rem 1.5rem;
   border-radius: 5px;
