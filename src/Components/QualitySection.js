@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-
+import img from '../assets/Group.png';
 const QualityContainer = styled.section`
-  background-color: #003d5c;
+  background-color:rgb(10, 52, 16);
   color: white;
   padding: 3rem 2rem;
   text-align: center;
@@ -38,19 +38,19 @@ const QualitySection = () => (
     <Title>HR Production of the Highest Quality</Title>
     <FeaturesGrid>
       <Feature>
-        <img src="/path/to/icon1.png" alt="Educates & Informs" />
+        <img src={img} alt="Educates & Informs" />
         <p>Educates & Informs Employee Expectations</p>
       </Feature>
       <Feature>
-        <img src="/path/to/icon2.png" alt="Protects Your Business" />
+        <img src={img} alt="Protects Your Business" />
         <p>Protects Your Business Just in Case</p>
       </Feature>
       <Feature>
-        <img src="/path/to/icon3.png" alt="Manages Documents" />
+        <img src={img} alt="Manages Documents" />
         <p>Manages & Stores Important Documents</p>
       </Feature>
       <Feature>
-        <img src="/path/to/icon4.png" alt="Healthy Work Environment" />
+        <img src={img} alt="Healthy Work Environment" />
         <p>Create a Healthy Work Environment</p>
       </Feature>
     </FeaturesGrid>

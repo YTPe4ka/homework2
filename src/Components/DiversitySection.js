@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import img from '../assets/Frame (1).png'
 
 const DiversityContainer = styled.section`
   background-color: #f5f5f5;
@@ -30,7 +31,7 @@ const DiversitySection = () => (
       Focus on casting and screening. Let Clersky handle contracts, resolve any
       on-set conflicts, and make sure you are compliant with work and safety boards.
     </Subtitle>
-    <Illustration src="/path/to/employees-illustration.png" alt="Diverse Employees" />
+    <Illustration src={img} alt="Diverse Employees" />
   </DiversityContainer>
 );
 

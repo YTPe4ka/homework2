@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import img from '../assets/characters.png';
 
 const ScenesContainer = styled.section`
   display: flex;
@@ -33,7 +34,7 @@ const ScenesSection = () => (
       <h2>How the scenes fit together</h2>
       <p>Employee Training & Development, Diversity & Inclusion Programs, and Conflict Resolution.</p>
     </TextContainer>
-    <Illustration src="/path/to/scenes-illustration.png" alt="Scenes Illustration" />
+    <Illustration src={img} alt="Scenes Illustration" />
   </ScenesContainer>
 );
 

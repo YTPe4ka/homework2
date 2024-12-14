@@ -1,7 +1,8 @@
 import styled from 'styled-components';
+import img from '../assets/Frame.png';  
 
 const HeroContainer = styled.section`
-  background-color: #123f5c;
+  background-color:rgb(0, 67, 13);
   color: white;
   padding: 3rem 2rem;
   text-align: center;
@@ -28,7 +29,7 @@ const HeroSection = () => (
     <Subtitle>
       Ready to put the human back in HR? Clersky helps you create an inclusive and compliant workplace.
     </Subtitle>
-    <HeroImage src="/path/to/image.png" alt="Hero Illustration" />
+    <HeroImage src={img} alt="Hero Illustration" />
   </HeroContainer>
 );
 
